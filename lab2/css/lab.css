@@ -8,17 +8,30 @@
     background-color: #f8bbbb;
   }
 
-  #Intro {
-    background-color: aliceblue;
-    width: 150px;
-    min-height: 150px;
-    padding: 100px;
-    margin: 10px;
-    border: solid 10px #000000;
-    
-  }
-#Intro h1{
-  color: brown;
+
+
+
+#Image p{
+  color: rgb(255, 98, 0);
+  position: absolute;
+  top: 460px;
+  left: 200px;
+  font-size: x-large;
+}
+
+#Image h2{
+  position: absolute;
+  top: 315px;
+  left: 200px;
+}
+
+#Image {
+  background-color: rgb(93, 214, 56);
+  width: 450px;
+  min-height: 450px;
+ 
+  margin: 10px;
+  border: solid 10px #f28911;
   
 }
 
