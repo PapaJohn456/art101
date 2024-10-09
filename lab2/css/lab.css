@@ -4,6 +4,25 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #a30202;
-    background-color: #DDD8C4;
+    border: solid 5px #000000;
+    background-color: #f8bbbb;
   }
+
+  #Intro {
+    background-color: aliceblue;
+    width: 150px;
+    min-height: 150px;
+    padding: 100px;
+    margin: 10px;
+    border: solid 10px #000000;
+    
+  }
+#Intro h1{
+  color: brown;
+  
+}
+
+
+
+  /* p. #__ {}  p= section.*/
+  /* specify= priority*/
