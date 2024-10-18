@@ -23,20 +23,37 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4 - Subject/Topic</h1>
+			<!--Create Buttons-->
+			<button id="Rock">Rock</button>
+			<button id="Paper">Paper</button>
+			<button id="Scissors">Scissors</button>
+
+
+
 			<div class="minor-section">
 					<h2>Challenge</h2>
 					<p>Restate the challenge of the lab here.</p>
+					The biggest challenge was trying to learn javascript. My initial approach was to watch a youtube video and how to make rock,paper scissors, but 
+					I found most of their solutions confusing, so I did in the way that made sense to me. 
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
 					<p>What problems arose? How did you solve them? </p>
+				   The way I had the winner function detect the winner was by checking the list that had the player input first and then the 
+				   computer input. It would if the player input was rock,paper or scissors and based off that answer it would check the second item in the list,
+				   computer input, to check the win conditions. One issue I had with this is that the list would exceed 2 items. The quick solution was to add an if statement
+				   that would check if the list exceeded 2 items in which it would reset it. This would then add another issue where it would do that, but because
+				   of the placement it  would still exceed 2, 4 being the max. The solution was to move it where it would create 4 and only have the players input in the list.
+				   I also had an issue where my button wouldn't work which was because I didn't correctly name everything the same.
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
 					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					Although I thought the lab was something else I'm still glad I made this work. I've had previous coding experience with python, godot, and assembly.
+					This was a nice way to remember some stuff and honestly after learning a language or general concepts it was pretty much a question of "Well how can I do ___ in JavaScript."
 			</div>
 
 			<div class="minor-section">
