@@ -3,6 +3,11 @@
 // Date:
 
 // Constants
+var number = 2
+var anotherNumber= 9
+var sum =number+anotherNumber
+console.log(number+anotherNumber)
+
 
 // Functions
 
