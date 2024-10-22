@@ -37,10 +37,10 @@ age= 2024- year;
 
 
 
-document.writeln("Make" + make + "<br>");
-document.writeln("Model"+model+ "<br>");
-document.writeln("Color"+color+ "<br>");
-document.writeln("Age"+age + "<br>");
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: "+model+ "<br>");
+document.writeln("Color: "+color+ "<br>");
+document.writeln("Age: "+age + "<br>");
 
 
 
