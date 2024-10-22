@@ -3,10 +3,14 @@
 // Date:
 
 // Constants
-var number = 2
-var anotherNumber= 9
-var sum =number+anotherNumber
-console.log(number+anotherNumber)
+
+/**
+ * Author:    Jose
+ * Created:   10.21.2024
+ * 
+ * (c) Copyright by PJ546.
+ **/
+
 
 
 // Functions
@@ -24,3 +28,20 @@ function main() {
 
 // let's get this party started
 main();
+make= "Nissan";
+model="SUV";
+color="Grey";
+year= 2022;
+ownIt= false;
+age= 2024- year;
+
+
+
+document.writeln("Make" + make + "<br>");
+document.writeln("Model"+model+ "<br>");
+document.writeln("Color"+color+ "<br>");
+document.writeln("Age"+age + "<br>");
+
+
+
+
