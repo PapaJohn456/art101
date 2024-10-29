@@ -8,7 +8,7 @@
 
 /**
  * Author:    Jose B
- * Created:   10.25.2024
+ * Created:   10.28.2024
  * 
  * (c) Copyright by PJ546.
  **/
@@ -19,11 +19,8 @@ function nameSort(){
     userName= userName.split('').sort().join('');
     return userName;
 
-  
 
 }
-
-
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
 function myFunction(param1, param2) {
