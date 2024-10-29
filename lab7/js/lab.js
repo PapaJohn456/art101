@@ -21,7 +21,7 @@ function nameSort(){
 
 
 }
-
+document.writeln(`I did you a favor and fixed your name:) It is now: ${nameSort()} </br>` );
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
 function myFunction(param1, param2) {
   // some code here
@@ -38,4 +38,4 @@ main();
 
 
 //Prints
-document.writeln(`I did you a favor and fixed your name:) It is now: ${nameSort()} </br>` );
+
