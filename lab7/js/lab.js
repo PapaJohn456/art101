@@ -5,23 +5,24 @@
 // Constants
 
 // Functions
-myTransport=["The 18<3","Walking","Nissan Sentra","Uber"];
 
+/**
+ * Author:    Jose B
+ * Created:   10.25.2024
+ * 
+ * (c) Copyright by PJ546.
+ **/
+//List
 
-myMainRide={
-  make:"Nissan",
-  model: "SUV",
-  color:"Grey",
-  year:2022,
-  age: function(){
-      return 2024- this.year;
-  }
+function nameSort(){
+    userName = prompt("Please enter your name");
+    userName= userName.split('').sort().join('');
+    return userName;
+
+  
+
 }
-document.writeln(`Kinds of transportation I use: ${myTransport} </br>` );
-document.writeln("My Main Ride: <pre>", 
-  JSON.stringify(myMainRide, null, '\t'), "</pre>");
 
-document.writeln(`My main ride is a ${myMainRide.color} ${myMainRide.make}</br>` );
 
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
@@ -37,3 +38,7 @@ function main() {
 
 // let's get this party started
 main();
+
+
+//Prints
+document.writeln(`I did you a favor and fixed your name:) It is now: ${nameSort()} </br>` );
