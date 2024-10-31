@@ -31,7 +31,6 @@ var mapping= list.map(function(x){
 console.log(mapping)
 
 var mapResults = `Your map results here: ${mapping} </br>` ;
-console.log(mapResults);
 $("#output").html(mapResults);
 
 
