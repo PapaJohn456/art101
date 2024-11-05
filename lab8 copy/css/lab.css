@@ -1,0 +1,10 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+.special {
+    background-color: lavender;
+    border: dotted 50px red;
+    color: pink;
+    font-weight: bold;
+}
+
+
