@@ -13,21 +13,35 @@
  * (c) Copyright by PJ546.
  **/
 //List
-
+  
+  
 // add button to challenge section
-function sortString(inputString) {
-  return inputString.split('').sort().join('');
-    
+function sortHat(str) {
+     
+  var mod=  str.length%4;
+  if (mod==0){
+    return "Gryffindor"
+  }
+  else if (mod==1){
+    return "Ravenclaw"
+
+  }
+  else if (mod==2){
+    return "Slytherin :)"
+
+  }
+  else if (mod==3){
+    return "Ew Hufflepuff"
+  }
   }
 
 
 // click listener for button
 $("#submit").click(function(){
     // get new fake dialogue
+    var response= sortHat($("#user-name").val())
     
-    const userName=$("#user-name").val();
-    userNameSorted=sortString(userName);
-    $("#output").append('<div class="text"><p>' + userNameSorted + '</p></div>');
+    $("#output").append('<div class="text"><p>' + "AND YOUR HOUSE IS.... "+response + '</p></div>');
     
 });
 
