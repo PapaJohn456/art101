@@ -5,9 +5,17 @@
 // Constants
 
 // Functions
+
+/**
+ * Author:    Jose B
+ * Created:   10.25.2024
+ * 
+ * (c) Copyright by PJ546.
+ **/
+//List
 myTransport=["The 18<3","Walking","Nissan Sentra","Uber"];
 
-
+//Object
 myMainRide={
   make:"Nissan",
   model: "SUV",
@@ -17,6 +25,7 @@ myMainRide={
       return 2024- this.year;
   }
 }
+//Prints
 document.writeln(`Kinds of transportation I use: ${myTransport} </br>` );
 document.writeln("My Main Ride: <pre>", 
   JSON.stringify(myMainRide, null, '\t'), "</pre>");

@@ -4,6 +4,27 @@
 
 // Constants
 
+//Creating Tic Tac Toe
+//Create 3 buttons: Rock,Paper, Scissors</p>
+// Attribute/Name Them</p>
+//Have bot choose rock, paper or scissors</p>
+//Set win conditions</p>
+//Print and show results</p>
+
+
+//Task: Digital Art
+ //Reference
+ //Select Brush
+ //Sketch
+ //Sketch 2 & adjust/modify
+ //Line art
+ //Shadows & Highlights
+ //Color
+ //Details/Textures
+
+
+
+
 //Set up List for answer conditions
 var Answer=[];
 
