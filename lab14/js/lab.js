@@ -54,14 +54,13 @@ function sortHat() {
 
 // click listener for button
 $("#submit").click(function(){
-    let data= 
-      {
+    let data= {
         "answer": "yes",
         "forced": false,
         "image": "https://yesno.wtf/assets/yes/2.gif"
       }
       $("#output").append('<div class="text"><p>' + data.answer + '</p></div>');
-      $("#output").append('<div class="text"><p>' + data.image + '</p></div>');
+      $("#output").append("<img src='" + data.image + "'");
 
 
     
