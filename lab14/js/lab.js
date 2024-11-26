@@ -13,21 +13,22 @@
  * (c) Copyright by PJ546.
  **/
 //List
-  
+let data= {
+  "answer": "NO",
+  "forced": false,
+  "image": "https://yesno.wtf/assets/no/12-dafd576be23d3768641340f76658ddfe.gif"
+}
   
 // add button to challenge section
 console.log("1")
 
 
+
 // click listener for button
 $("#submit").click(function(){
-  let data= {
-      "answer": "yes",
-      "forced": false,
-      "image": "https://yesno.wtf/assets/yes/2.gif"
-    }
+  
     $("#output").append('<h1>' + data.answer);
-    $("#output").append("<img src='" + data.image + "'>");
+    $("#output").append("<img src='" + data.image + "'>")
 
 
   
